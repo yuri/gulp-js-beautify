@@ -1,6 +1,6 @@
 {
   "name": "gulp-js-beautify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS-Beautify Plugin for Gulp",
   "main": "src/gulp-js-beautify.js",
   "scripts": {
@@ -19,5 +19,9 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/yuri/gulp-js-beautify/issues"
+  },
+  "dependencies": {
+    "event-stream": "^3.1.5",
+    "js-beautify": "^1.5.1"
   }
 }
